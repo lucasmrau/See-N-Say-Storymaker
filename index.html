@@ -10,11 +10,14 @@
 
 <body>
 	<section>
-		<h1>See 'N' Say Storymaker</h1>
-		<h2>Assignment 1 - Client-Side Javascript</h2>
+		<div id="title">
+			<h1>See 'N' Say Storymaker</h1>
+			<h2>Assignment 1 - Client-Side Javascript</h2>
+		</div>
 
 		<div>
 			<button id="speakButton">Speak the value of var textToSpeak</button>
+			<button id="clearButton">Clear the story</button>
 		</div>
 
 		<div>
@@ -23,6 +26,14 @@
 			<button id="adjectiveButton" data-category="adjectives">Adjective</button>
 			<button id="secondNounButton" data-category="nouns">Second Noun</button>
 			<button id="placeButton" data-category="places">Place</button>
+		</div>
+
+		<div>
+			<button id="fullStory">Generate Full Story</button>
+		</div>
+
+		<div>
+			<P id="textDisplay">Story's text output</P>
 		</div>
 	</section>
 

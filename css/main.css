@@ -1,8 +1,9 @@
 @charset "utf-8";
 /* Assignment 1 | COMP1073 Client-Side JavaScript */
 
-h1, h2 {
+h1, h2, p {
   color: white;
+  font-family: "Arial";
 }
 
 section {
@@ -12,7 +13,6 @@ section {
   justify-content: center;
   flex-direction: column;
   background-color: #1B1B1B;
-  font-family: "Arial";
 }
 
 div {
@@ -20,11 +20,19 @@ div {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
 }
 
 div + div {
   margin-top: 20px;
 }
+
+/* div:nth-of-type(1) {
+  background-color: #333333;
+} */
 
 button {
   background-color: #5E6569;
@@ -54,9 +62,22 @@ button:hover {
 }
 
 #secondNounButton {
-  background-color: #AD2F2F;
+  background-color: #800080;
 }
 
 #placeButton {
   background-color: #1DAD4D;
+}
+
+#title {
+  display: block;
+  text-align: center;
+}
+
+#clearButton {
+  background-color: transparent;
+}
+
+#fullStory {
+  background: linear-gradient(to right, #FA5E5D, #43B3FA, #C76336, #800080, #1DAD4D);
 }
